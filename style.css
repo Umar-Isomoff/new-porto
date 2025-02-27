@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+/* header {
+    padding: 50px;
+    background: linear-gradient(45deg, #ff0000, #3700ff);
+    color: black;
+} */
+
+.highlight {
+    color: #ffcd00;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcd00;
+}
+
+section {
+    padding: 50px;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+    background: #444;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px blue;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background: #ffcd00;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px linear-gradient(45deg, #ff0000, #2f00ff) ;
+}
+
+footer {
+    background: #222;
+    padding: 20px;
+    margin-top: 20px;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 50px;
+    background: linear-gradient(45deg, #ff0000, #2f00ff);
+    color: black;
+}
+
+.highlight {
+    color: #ffcd00;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcd00;
+}
+
+section {
+    padding: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 20px;
+    border: none;
+    background: #ffcd00;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 5px 5px 50px red;
+}
+
+button:hover {
+    background: #ff0080;
+    color: white;
+}
+
+/* Jaguar Animatsiyasi Modal Oynasi */
+#animationModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#animationModal img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#closeAnimation {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 50px;
+    background: linear-gradient(45deg, #ff0000, #3700ff);
+    color: black;
+}
+
+.highlight {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcd00;
+}
+
+section {
+    padding: 50px;
+}
+
+/* Jaguar Animatsiyasi Modal Oynasi */
+#animationModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#animationModal img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#closeAnimation {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Kanalga o'tish havolasi */
+.channel-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    width: 300px;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+.channel-box:hover {
+    box-shadow: 0 6px 15px rgba(255, 255, 255, 0.4);
+}
+
+.channel-box img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.channel-box a {
+    text-decoration: none;
+    color: #ffcd00;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.channel-box a:hover {
+    color: #ff0080;
+}
